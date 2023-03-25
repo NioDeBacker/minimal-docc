@@ -1,3 +1,5 @@
 # Footnotes
 
-An example of a footnote:
+An example of a footnote: [^1]
+
+[^1]: The content of the footnote
