@@ -1,4 +1,4 @@
-# Headers
+# Headings
 
 This page showcases the support for numbered and unnumbered headers.
 

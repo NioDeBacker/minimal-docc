@@ -1,3 +1,3 @@
 # minimal-docc
 
-use command `xcrun docc preview ../test --fallback-display-name test --fallback-bundle-identifier test  --output-path "../result"`
+use command `xcrun docc preview ../minimal-docc --fallback-display-name minimal-docc --fallback-bundle-identifier minimal-docc  --output-path "../result"`
