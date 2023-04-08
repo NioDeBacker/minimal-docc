@@ -1,0 +1,60 @@
+@Tutorial(time: 30) {
+    @Intro(title: "test intro") {
+        Intro of this test tutorial
+        @Image(source: "image.jpg", alt: "lorem ipsum")        
+    }
+    @XcodeRequirement(
+        title: "Xcode 13", 
+        destination: "https://developer.apple.com/download/")
+    @Section(title: "first section") {
+        @ContentAndMedia {
+            Content and Media part
+    
+            @Image(source: "image.jpg", alt: "lorem ipsum")        
+        }
+        @Stack {
+                   @ContentAndMedia {
+            Content and Media part 1
+    
+            @Image(source: "image.jpg", alt: "lorem ipsum")        
+        }
+               @ContentAndMedia {
+            Content and Media part 2
+    
+            @Image(source: "image.jpg", alt: "lorem ipsum")        
+        }
+        }
+        @Steps {
+            @Step {
+                Step one
+                @Image(source: "image.jpg", alt: "lorem ipsum")        
+            }
+            @Step {
+                Step two
+                @Image(source: "image.jpg", alt: "lorem ipsum")        
+            }
+        }
+    }
+
+    @Assessments {
+        This is a small quiz
+        @MultipleChoice {
+            Question
+
+            @Choice(isCorrect: false) {
+                First answer
+
+                @Justification(reaction: "Reaction") {
+                    Explanation
+                }
+            }
+            @Choice(isCorrect: true) {
+                Second answer
+
+                @Justification(reaction: "Reaction") {
+                    Explanation
+                }
+            }
+        }
+    }
+}

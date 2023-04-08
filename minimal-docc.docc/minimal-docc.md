@@ -5,7 +5,7 @@
 }
 
 @Options(scope: global) {
-  @AutomaticSeeAlso(disabled)
+  @AutomaticSeeAlso(enabled)
   @AutomaticTitleHeading(disabled)
   @AutomaticArticleSubheading(disabled)
 }

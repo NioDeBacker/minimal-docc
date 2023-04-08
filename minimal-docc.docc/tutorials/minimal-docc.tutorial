@@ -1,0 +1,41 @@
+@Tutorials(name: "Example Tutorials"){
+    @Intro(title: "An Intro"){
+        This is the content of the **intro**.
+        @Image(source: "image.jpg", alt: "lorem ipsum")
+    }
+
+    @Chapter(name: "Test Tutorial") {
+        @Image(source: "image.jpg", alt: "lorem ipsum")        
+        Something about this tutorial        
+        @TutorialReference(tutorial: "doc:test-tutorial")
+    }
+
+    @Resources {
+        Explore more resources for learning.
+
+        @Videos(destination: "https://www.example.com/videos/") {
+            Link to videos
+            - [A video link](https://www.example.com/videos/)
+        }
+
+        @Downloads(destination: "https://www.example.com/images/") {
+            A link to downloads
+        }
+
+        @Forums(destination: "https://www.example.com/images/") {
+            A link to fora
+        }
+        @SampleCode(destination: "https://www.example.com/images/") {
+            A link to sample code
+            - [A sample code link](https://www.example.com/code.c)
+
+        }
+
+        @Documentation(destination: "https://www.example.com/images/") {
+            A link to documentation files
+            - [A doc link](https://www.example.com/docs/)
+
+        }
+
+    }
+}
