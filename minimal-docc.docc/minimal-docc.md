@@ -5,9 +5,10 @@
 }
 
 @Options(scope: global) {
-  @AutomaticSeeAlso(enabled)
+  @AutomaticSeeAlso(disabled)
   @AutomaticTitleHeading(disabled)
   @AutomaticArticleSubheading(disabled)
+  @TopicsVisualStyle(compactGrid)
 }
 
 ## Topics

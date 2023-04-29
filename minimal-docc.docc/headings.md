@@ -1,8 +1,8 @@
-# Headings
+# 1. Headings
 
 This page showcases the support for numbered and unnumbered headers.
 
-## A Numbered Subheader
+## 1.1 A Numbered Subheader
 
 The content.
 
