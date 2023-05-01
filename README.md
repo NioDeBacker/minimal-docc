@@ -4,4 +4,4 @@ use command `xcrun docc preview ../minimal-docc --fallback-display-name minimal-
 
 footnote test [^1]
 
-[^1]: ![image](./minimal-docc.docc/resources/image.jpg)
+[^1]: ![image](https://github.com/NioDeBacker/minimal-docc/blob/main/minimal-docc.docc/resources/image.jpg)
